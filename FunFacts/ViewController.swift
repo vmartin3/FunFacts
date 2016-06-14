@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         view.backgroundColor = randomColor
         funFactLabel.text = factModel.getRandomFact()
         funFactButton.tintColor = randomColor
+        //
     }
 
     override func viewDidLoad() {
